@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063FFC5262C3DEFBF46568DA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31007C9F90EB25DA3D4ADA6 /* WebView.swift */; };
+		101B6A001E04EB7221702C85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08612E7DB3D7AD664B6BDEF /* ContentView.swift */; };
+		195A64C2BEC88E1AF59D87A0 /* ZIPFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209D1E69835CB7082C134B5F /* ZIPFoundation.xcframework */; };
+		39F1EDA7062222C3CD16D954 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A5D59F87EDA53755419C8F /* Preview Assets.xcassets */; };
+		41EA6031C3F3EAE1ABB82668 /* liberlang.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ABD22F5F853F5E490BFD3F /* liberlang.xcframework */; };
+		8ADCDA94663280A59BDB2189 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EE84B61E5F05B4C45F393D /* Bridge.swift */; };
+		B70464B6F01D62876BFC480D /* native-lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCBC1D0180B4C9AD7DE711 /* native-lib.cpp */; };
+		BBCC42AB0BD631FCC5F35215 /* ZIPFoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 209D1E69835CB7082C134B5F /* ZIPFoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEE0D972525BB53679A2072D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96914A794937615926EF0BD9 /* Assets.xcassets */; };
+		C971215DE823144DB55725B2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32E714C40CF80F2CE113FA /* WebViewController.swift */; };
+		D914F4E72402DF9DB95196AC /* ElixirMobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A782B10C7EE28BDB9F47F234 /* ElixirMobile.swift */; };
+		EB4A5B91A8B4AAC338212F14 /* app.zip in Resources */ = {isa = PBXBuildFile; fileRef = D7076EC472DC461DC92523DE /* app.zip */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37556B93644B6D3EDAEC8485 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BBCC42AB0BD631FCC5F35215 /* ZIPFoundation.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		10EE84B61E5F05B4C45F393D /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		12ABD22F5F853F5E490BFD3F /* liberlang.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = liberlang.xcframework; sourceTree = "<group>"; };
+		209D1E69835CB7082C134B5F /* ZIPFoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ZIPFoundation.xcframework; path = Carthage/Build/ZIPFoundation.xcframework; sourceTree = "<group>"; };
+		4BCCBC1D0180B4C9AD7DE711 /* native-lib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "native-lib.cpp"; sourceTree = "<group>"; };
+		60CB076E6A8D9ED12ACABF42 /* native-lib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "native-lib.hpp"; sourceTree = "<group>"; };
+		6D81B000E4DF233419817343 /* example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "example-Bridging-Header.h"; sourceTree = "<group>"; };
+		91A5D59F87EDA53755419C8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96914A794937615926EF0BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A31007C9F90EB25DA3D4ADA6 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		A782B10C7EE28BDB9F47F234 /* ElixirMobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElixirMobile.swift; sourceTree = "<group>"; };
+		AF32E714C40CF80F2CE113FA /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D08612E7DB3D7AD664B6BDEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D7076EC472DC461DC92523DE /* app.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = app.zip; sourceTree = "<group>"; };
+		D9BD889DFFEE639146B3754C /* ElixirMobile.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ElixirMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		069C156AF649F9525962CEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195A64C2BEC88E1AF59D87A0 /* ZIPFoundation.xcframework in Frameworks */,
+				41EA6031C3F3EAE1ABB82668 /* liberlang.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F5F62BA046BA8CA9B7055EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91A5D59F87EDA53755419C8F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DD1BC45D8E7CE34B6DE770C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12ABD22F5F853F5E490BFD3F /* liberlang.xcframework */,
+				209D1E69835CB7082C134B5F /* ZIPFoundation.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D917B7400CCA1B8F08A7CC0 = {
+			isa = PBXGroup;
+			children = (
+				C5A07D6EDB92995C0E37BD22 /* ElixirMobile */,
+				6D81B000E4DF233419817343 /* example-Bridging-Header.h */,
+				4BCCBC1D0180B4C9AD7DE711 /* native-lib.cpp */,
+				60CB076E6A8D9ED12ACABF42 /* native-lib.hpp */,
+				3DD1BC45D8E7CE34B6DE770C /* Frameworks */,
+				B58269BF545741CA24C55B46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B58269BF545741CA24C55B46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9BD889DFFEE639146B3754C /* ElixirMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5A07D6EDB92995C0E37BD22 /* ElixirMobile */ = {
+			isa = PBXGroup;
+			children = (
+				2F5F62BA046BA8CA9B7055EE /* Preview Content */,
+				D7076EC472DC461DC92523DE /* app.zip */,
+				96914A794937615926EF0BD9 /* Assets.xcassets */,
+				10EE84B61E5F05B4C45F393D /* Bridge.swift */,
+				D08612E7DB3D7AD664B6BDEF /* ContentView.swift */,
+				A782B10C7EE28BDB9F47F234 /* ElixirMobile.swift */,
+				A31007C9F90EB25DA3D4ADA6 /* WebView.swift */,
+				AF32E714C40CF80F2CE113FA /* WebViewController.swift */,
+			);
+			path = ElixirMobile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F99C34D51E1DD8022F5372CA /* ElixirMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B92D8DF0C4F7E58EC07225B0 /* Build configuration list for PBXNativeTarget "ElixirMobile" */;
+			buildPhases = (
+				473D58F1CDA1B270CAE00268 /* Sources */,
+				33872B9015624A11F9ECBC5D /* Resources */,
+				069C156AF649F9525962CEE1 /* Frameworks */,
+				37556B93644B6D3EDAEC8485 /* Embed Frameworks */,
+				665A2C34A6475A3471DB7147 /* build elixir */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElixirMobile;
+			productName = ElixirMobile;
+			productReference = D9BD889DFFEE639146B3754C /* ElixirMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FE8E7FEC4A02DDC144C7E2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 59280FAFA059C3FEA8DBCBF7 /* Build configuration list for PBXProject "ElixirMobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8D917B7400CCA1B8F08A7CC0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F99C34D51E1DD8022F5372CA /* ElixirMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33872B9015624A11F9ECBC5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE0D972525BB53679A2072D /* Assets.xcassets in Resources */,
+				39F1EDA7062222C3CD16D954 /* Preview Assets.xcassets in Resources */,
+				EB4A5B91A8B4AAC338212F14 /* app.zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		665A2C34A6475A3471DB7147 /* build elixir */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "build elixir";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nset -e\n\n./run_mix";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		473D58F1CDA1B270CAE00268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADCDA94663280A59BDB2189 /* Bridge.swift in Sources */,
+				101B6A001E04EB7221702C85 /* ContentView.swift in Sources */,
+				D914F4E72402DF9DB95196AC /* ElixirMobile.swift in Sources */,
+				063FFC5262C3DEFBF46568DA /* WebView.swift in Sources */,
+				C971215DE823144DB55725B2 /* WebViewController.swift in Sources */,
+				B70464B6F01D62876BFC480D /* native-lib.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C52D45D7EA6F5AAC7144254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\".\"",
+					"\"Carthage/Build\"",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ElixirMobile;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "example-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C7A18AC50643C797B52C17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "${DEKSTOP_APP_NAME}";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.ElixirMobile;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A2ABD8EDA0F941CECF663A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "${DEKSTOP_APP_NAME}";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.ElixirMobile;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		C54AB2FC7346958DE8C8CAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\".\"",
+					"\"Carthage/Build\"",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ElixirMobile;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "example-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59280FAFA059C3FEA8DBCBF7 /* Build configuration list for PBXProject "ElixirMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C7A18AC50643C797B52C17E /* Debug */,
+				A2ABD8EDA0F941CECF663A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B92D8DF0C4F7E58EC07225B0 /* Build configuration list for PBXNativeTarget "ElixirMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C52D45D7EA6F5AAC7144254 /* Debug */,
+				C54AB2FC7346958DE8C8CAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FE8E7FEC4A02DDC144C7E2D /* Project object */;
+}
