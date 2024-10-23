@@ -17,7 +17,10 @@ defmodule ElixirMobileWeb.Router do
   scope "/", ElixirMobileWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    live_session :default,
+      layout: {ElixirMobileWeb.Layouts, :app} do
+      live "/", SlideLive, :index
+    end
   end
 
   # Other scopes may use custom stacks.
