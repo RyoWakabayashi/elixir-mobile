@@ -1,7 +1,7 @@
 defmodule ElixirMobileWeb.SlideLive do
   use ElixirMobileWeb, :live_view
 
-  @max_page 5
+  @max_page 4
 
   @impl true
   def mount(_args, _session, socket) do

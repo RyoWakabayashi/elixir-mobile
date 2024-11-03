@@ -17,11 +17,11 @@ defmodule ElixirMobileWeb.SlideLive.PageComponents do
             class="w-2/3"
           />
           <div class="block">
-            <p class="text-6xl sm:text-8xl">#10</p>
+            <p class="text-6xl sm:text-8xl">#11</p>
           </div>
         </div>
         <div>
-          モバイルで SaladUI ハンズオン
+          モバイル開発 LT 会
         </div>
       </div>
       """,
@@ -76,16 +76,6 @@ defmodule ElixirMobileWeb.SlideLive.PageComponents do
           </li>
         </ul>
         <img src="images/qr-discord.png" class="w-40"/>
-      </div>
-      """,
-      ~H"""
-      <div class="leading-relaxed">
-        <p class="mb-2">本日の進行表</p>
-        <div class="break-all text-blue-500">
-          <a href="https://docs.google.com/spreadsheets/d/1GVK_1bVgndpdvNRYZu4fY-0De3rxDMqI5c6MhSD6vbQ/edit?usp=sharing">
-            https://docs.google.com/spreadsheets/d/1GVK_1bVgndpdvNRYZu4fY-0De3rxDMqI5c6MhSD6vbQ/edit?usp=sharing
-          </a>
-        </div>
       </div>
       """
     ]
