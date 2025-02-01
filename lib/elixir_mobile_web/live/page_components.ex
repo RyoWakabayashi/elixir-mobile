@@ -17,11 +17,11 @@ defmodule ElixirMobileWeb.SlideLive.PageComponents do
             class="w-2/3"
           />
           <div class="block">
-            <p class="text-6xl sm:text-8xl">#11</p>
+            <p class="text-6xl sm:text-8xl">#12</p>
           </div>
         </div>
         <div>
-          モバイル開発 LT 会
+          LiveViewNative超入門
         </div>
       </div>
       """,
